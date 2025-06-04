@@ -1,0 +1,14 @@
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\bin\Debug\net8.0\ejecicicios.exe
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\bin\Debug\net8.0\ejecicicios.deps.json
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\bin\Debug\net8.0\ejecicicios.runtimeconfig.json
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\bin\Debug\net8.0\ejecicicios.dll
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\bin\Debug\net8.0\ejecicicios.pdb
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\obj\Debug\net8.0\ejecicicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\obj\Debug\net8.0\ejecicicios.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\obj\Debug\net8.0\ejecicicios.AssemblyInfo.cs
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\obj\Debug\net8.0\ejecicicios.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\obj\Debug\net8.0\ejecicicios.dll
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\obj\Debug\net8.0\refint\ejecicicios.dll
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\obj\Debug\net8.0\ejecicicios.pdb
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\obj\Debug\net8.0\ejecicicios.genruntimeconfig.cache
+C:\Users\HP\Documents\ARCHIVOS 2025\Fundamentos\ejecicicios\obj\Debug\net8.0\ref\ejecicicios.dll
