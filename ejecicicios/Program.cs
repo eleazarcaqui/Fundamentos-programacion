@@ -22,15 +22,15 @@ class Program
         // Console.ReadKey();
 
 
-        double precio, cantidad, total;
-        // Entrada
-        Console.Write("Ingrese el precio por unidad: ");
-         precio = double.Parse(Console.ReadLine());
-        Console.Write("Ingrese la cantidad comprada: ");
-        cantidad = double.Parse(Console.ReadLine());
-        // Salida
-        total = precio * cantidad;
-        Console.WriteLine("El total a pagar es: S/" + total);
-        Console.ReadKey();
+        // double precio, cantidad, total;
+        // // Entrada
+        // Console.Write("Ingrese el precio por unidad: ");
+        //  precio = double.Parse(Console.ReadLine());
+        // Console.Write("Ingrese la cantidad comprada: ");
+        // cantidad = double.Parse(Console.ReadLine());
+        // // Salida
+        // total = precio * cantidad;
+        // Console.WriteLine("El total a pagar es: S/" + total);
+        // Console.ReadKey();
     }
 }
