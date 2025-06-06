@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\ARCHIVOS 2025\\Fundamentos\\Fundamentos-programacion\\ejecicicios\\ejecicicios.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\ARCHIVOS 2025\\Fundamentos\\Fundamentos-programacion\\ejercicios\\ejecicicios.csproj",
       "projectName": "ejecicicios",
-      "projectPath": "C:\\Users\\HP\\Documents\\ARCHIVOS 2025\\Fundamentos\\Fundamentos-programacion\\ejecicicios\\ejecicicios.csproj",
+      "projectPath": "C:\\Users\\HP\\Documents\\ARCHIVOS 2025\\Fundamentos\\Fundamentos-programacion\\ejercicios\\ejecicicios.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\ARCHIVOS 2025\\Fundamentos\\Fundamentos-programacion\\ejecicicios\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\ARCHIVOS 2025\\Fundamentos\\Fundamentos-programacion\\ejercicios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
