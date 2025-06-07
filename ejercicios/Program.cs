@@ -6,81 +6,81 @@ class Program
     {
         // Variables
 
-        string tipoVehiculo, clienteAntiguo;
-        double costoReparacion, descVehiculo = 0, descAntiguo = 0;
-        double descTotal, totalPagar;
+        // string tipoVehiculo, clienteAntiguo;
+        // double costoReparacion, descVehiculo = 0, descAntiguo = 0;
+        // double descTotal, totalPagar;
 
-        Console.WriteLine("=== MECÁNICA VENCEDOR ===");
-        Console.WriteLine("Descuentos por tipo de vehículo:");
-        Console.WriteLine("- Moto: S/. 10");
-        Console.WriteLine("- Automóvil: S/. 20");
-        Console.WriteLine("- Camión: S/. 30");
-        Console.WriteLine();
-        Console.WriteLine("Descuento adicional para clientes antiguos: S/. 15");
-        Console.WriteLine();
+        // Console.WriteLine("=== MECÁNICA VENCEDOR ===");
+        // Console.WriteLine("Descuentos por tipo de vehículo:");
+        // Console.WriteLine("- Moto: S/. 10");
+        // Console.WriteLine("- Automóvil: S/. 20");
+        // Console.WriteLine("- Camión: S/. 30");
+        // Console.WriteLine();
+        // Console.WriteLine("Descuento adicional para clientes antiguos: S/. 15");
+        // Console.WriteLine();
 
-        // Solicitar datos de entrada
-        Console.Write("Ingrese el costo de reparación: S/. ");
-        costoReparacion = double.Parse(Console.ReadLine());
+        // // Solicitar datos de entrada
+        // Console.Write("Ingrese el costo de reparación: S/. ");
+        // costoReparacion = double.Parse(Console.ReadLine());
 
-        Console.Write("Ingrese el tipo de vehículo (Moto/Automovil/Camion): ");
-        tipoVehiculo = Console.ReadLine().ToLower();
+        // Console.Write("Ingrese el tipo de vehículo (Moto/Automovil/Camion): ");
+        // tipoVehiculo = Console.ReadLine().ToLower();
 
-        Console.Write("¿Es cliente antiguo? (si/no): ");
-        clienteAntiguo = Console.ReadLine().ToLower();
+        // Console.Write("¿Es cliente antiguo? (si/no): ");
+        // clienteAntiguo = Console.ReadLine().ToLower();
 
-        if (tipoVehiculo == "moto")
-        {
-            descVehiculo = 10;
-        }
-        if (tipoVehiculo == "automovil" || tipoVehiculo == "automóvil")
-        {
-            descVehiculo = 20;
-        }
-        if (tipoVehiculo == "camion" || tipoVehiculo == "camión")
-        {
-            descVehiculo = 30;
-        }
-        if (clienteAntiguo == "si" || clienteAntiguo == "sí")
-        {
-            descAntiguo = 15;
-        }
-        descTotal = descVehiculo + descAntiguo;
-        totalPagar = costoReparacion - descTotal;
-        Console.WriteLine();
-        Console.WriteLine("=== DETALLE DE LA REPARACIÓN ===");
-        Console.WriteLine($"Tipo de vehículo: {char.ToUpper(tipoVehiculo[0]) + tipoVehiculo.Substring(1)}");
-        Console.WriteLine($"Cliente antiguo: {(descAntiguo > 0 ? "Sí" : "No")}");
-        Console.WriteLine($"Costo inicial: S/. {costoReparacion:F2}");
-        Console.WriteLine();
+        // if (tipoVehiculo == "moto")
+        // {
+        //     descVehiculo = 10;
+        // }
+        // if (tipoVehiculo == "automovil" || tipoVehiculo == "automóvil")
+        // {
+        //     descVehiculo = 20;
+        // }
+        // if (tipoVehiculo == "camion" || tipoVehiculo == "camión")
+        // {
+        //     descVehiculo = 30;
+        // }
+        // if (clienteAntiguo == "si" || clienteAntiguo == "sí")
+        // {
+        //     descAntiguo = 15;
+        // }
+        // descTotal = descVehiculo + descAntiguo;
+        // totalPagar = costoReparacion - descTotal;
+        // Console.WriteLine();
+        // Console.WriteLine("=== DETALLE DE LA REPARACIÓN ===");
+        // Console.WriteLine($"Tipo de vehículo: {char.ToUpper(tipoVehiculo[0]) + tipoVehiculo.Substring(1)}");
+        // Console.WriteLine($"Cliente antiguo: {(descAntiguo > 0 ? "Sí" : "No")}");
+        // Console.WriteLine($"Costo inicial: S/. {costoReparacion:F2}");
+        // Console.WriteLine();
 
-        Console.WriteLine("=== DESCUENTOS APLICADOS ===");
+        // Console.WriteLine("=== DESCUENTOS APLICADOS ===");
 
-        if (descVehiculo > 0)
-        {
-            Console.WriteLine($"Descuento por vehículo: S/. {descVehiculo:F2}");
-        }
-        else
-        {
-            Console.WriteLine("Descuento por vehículo: S/. 0.00 (tipo no válido)");
-        }
+        // if (descVehiculo > 0)
+        // {
+        //     Console.WriteLine($"Descuento por vehículo: S/. {descVehiculo:F2}");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Descuento por vehículo: S/. 0.00 (tipo no válido)");
+        // }
 
-        if (descAntiguo > 0)
-        {
-            Console.WriteLine($"Descuento cliente antiguo: S/. {descAntiguo:F2}");
-        }
-        else
-        {
-            Console.WriteLine("Descuento cliente antiguo: S/. 0.00");
-        }
+        // if (descAntiguo > 0)
+        // {
+        //     Console.WriteLine($"Descuento cliente antiguo: S/. {descAntiguo:F2}");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Descuento cliente antiguo: S/. 0.00");
+        // }
 
-        Console.WriteLine($"DESCUENTO TOTAL: S/. {descTotal:F2}");
-        Console.WriteLine();
-        Console.WriteLine($"TOTAL A PAGAR: S/. {totalPagar:F2}");
+        // Console.WriteLine($"DESCUENTO TOTAL: S/. {descTotal:F2}");
+        // Console.WriteLine();
+        // Console.WriteLine($"TOTAL A PAGAR: S/. {totalPagar:F2}");
 
-        Console.WriteLine();
-        Console.WriteLine("Presione cualquier tecla para salir...");
-        Console.ReadKey();
+        // Console.WriteLine();
+        // Console.WriteLine("Presione cualquier tecla para salir...");
+        // Console.ReadKey();
 
         // string marca;
         // int años;
